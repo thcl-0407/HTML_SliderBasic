@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: auto 0;
+}
+
+body{
+    background-color: #454647;
+}
+
+.slider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider> figure{
+    position: absolute;
+    display: flex;
+    z-index: 50;
+}
+
+.slider> figure > img{
+    width: 100%;
+}
+
+#btnNext, #btnLast{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 30px 20px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+#btnNext:hover, #btnLast:hover{
+    cursor: pointer;
+    background-color: rgba(69, 70, 71, 0.5);
+}

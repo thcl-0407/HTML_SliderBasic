@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Tiểu Bảo Bối</title>
+    <link href="./css/style.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <div class="slider">
+        <div style="position: absolute; z-index: 100; left: 0; display: flex;">
+            <button id="btnLast"><span><i class="fas fa-caret-left"></i></span></button>
+        </div>
+        <figure>
+            <img class="first" src="./imgs/IMG_0015.JPEG">
+            <img src="./imgs/IMG_0017.JPEG">
+            <img src="./imgs/IMG_0018.JPG">
+            <img src="./imgs/IMG_0019.JPEG">
+            <img src="./imgs/IMG_0023.JPG">
+            <img src="./imgs/IMG_0025.JPG">
+        </figure>
+        <div style="position: absolute; z-index: 100; right: 0; display: flex;">
+            <button id="btnNext"><span><i class="fas fa-caret-right"></i></span></button>
+        </div>
+    </div>
+</div>
+<script src='http://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script src='./js/jquery.keyframes.min.js'></script>
+<script src="./js/slider.js"></script>
+</body>
+</html>
