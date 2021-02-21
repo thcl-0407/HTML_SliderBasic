@@ -54,7 +54,7 @@ $(document).ready(()=>{
     })
 })
 
-/*
+
 setInterval(()=>{
     if(position ==  1){
         $('.first').css('margin-left', '-100%');
@@ -79,5 +79,5 @@ setInterval(()=>{
     if(position != 6){
         position += 1
     }
-}, 2000)*/
+}, 2000)
 
